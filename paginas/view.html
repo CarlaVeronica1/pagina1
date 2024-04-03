@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mt-4 ms-4 me-4">
+    <section id="idContenidoIndex">
+        <form id="formBuscar" class="input-group" onsubmit="buscarAlumnos(); return false;">
+            <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"/>
+                  </svg>
+            </span>
+            <input class="form-control" type="search" name="txtBuscar" id="txtBuscar" placeholder="Buscar estudiante por nombre o matrícula" oninput="buscarAlumnos(); return false;">
+        </form>   
+        <div id="ListaAlumnos">
+        <table class="justify-content-md-center justify-content-sm-center">
+            <tr>
+                <th>Matricula</th>
+                <th>Nombre</th>
+                <th>Apellido P.</th>
+                <th>Apellido M.</th>
+                <th>Programa Edu.</th>
+                <th>Foto</th> 
+            </tr>
+            <tbody id="myTable">
+
+            </tbody>
+        </table>
+        </div>
+    </section>
+
+    </div>
+</body>
+<script src="../js/listaAlumno.js"></script>
+</html>

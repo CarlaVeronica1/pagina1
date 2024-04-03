@@ -1,0 +1,9 @@
+body{
+    background-color: blue;
+}
+#idContenedorAlumno{
+    background-color: aqua;
+    margin: 15% 20%;
+    padding: 10%;
+    align-self: center;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "PWA Estudiantes",
+    "short_name": "Estudiantes ",
+    "description": "aplicacionEscolar ",
+    "start_url": "./listaAlumnos.html",
+    "display": "standalone",
+    "orientation":"landscape",
+    "background_color": "#ffffff",
+    "theme_color": "#4d0343",
+    "escope":"./",
+
+    "icons": [
+      {
+        "src":"../assets/school.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
