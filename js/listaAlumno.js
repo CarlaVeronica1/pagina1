@@ -50,7 +50,7 @@ function buscarAlumnos() {
     var alumnosBuscados = formData.filter(function (imagen) {
         return (
             imagen.Nombre.toLowerCase().includes(textoBusqueda) 
-        );
-    });
-    mostrarListaImagenes(alumnosBuscados);
+        )
+    })
+    mostrarListaImagenes(alumnosBuscados)
 }
